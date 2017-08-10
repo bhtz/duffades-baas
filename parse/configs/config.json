@@ -1,0 +1,7 @@
+{
+    "databaseUri": "mongodb://soprasteria:baas@ds032887.mlab.com:32887/parse-baas",
+    "serverURL": "http://localhost:1337/parse",
+    "appId": "baas",
+    "masterKey": "soprasteria",
+    "appName": "Parse BAAS"
+}

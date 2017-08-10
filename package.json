@@ -1,0 +1,27 @@
+{
+  "name": "duffade-baas",
+  "version": "1.0.0",
+  "description": "parse-server backend as a service & dashboard for rapid prototyping",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhtz/duffades-baas.git"
+  },
+  "keywords": [
+    "baas",
+    "node",
+    "rest",
+    "api"
+  ],
+  "author": "Benjamin Heintz",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "parse-dashboard": "^1.1.0",
+    "parse-server": "^2.5.3"
+  }
+}
