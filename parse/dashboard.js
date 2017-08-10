@@ -7,5 +7,8 @@ module.exports = new ParseDashboard({
         appId: process.env.APP_ID || CONFIG.appId,
         masterKey: process.env.MASTER_KEY || CONFIG.masterKey,
         appName: CONFIG.appName
+    }],
+    users: [{
+      "admin":"duffade"
     }]
-});
+}, true);
