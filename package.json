@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
     "express": "^4.15.3",
     "parse-dashboard": "^1.1.0",
     "parse-server": "^2.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
